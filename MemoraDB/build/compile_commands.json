@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../server -I../lib -g -pthread -o server/CMakeFiles/memora_server.dir/main.c.o -c /workspaces/MemoraDB/server/main.c",
+  "file": "/workspaces/MemoraDB/server/main.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../server -g -pthread -o server/CMakeFiles/memora_server_lib.dir/memora_server.c.o -c /workspaces/MemoraDB/server/memora_server.c",
+  "file": "/workspaces/MemoraDB/server/memora_server.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../lib -g -o lib/CMakeFiles/memora.dir/memora.c.o -c /workspaces/MemoraDB/lib/memora.c",
+  "file": "/workspaces/MemoraDB/lib/memora.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../lib -g -o client/CMakeFiles/memora_client.dir/main.c.o -c /workspaces/MemoraDB/client/main.c",
+  "file": "/workspaces/MemoraDB/client/main.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../lib -I../server -g -O0 -o tests/CMakeFiles/memora_client_tests.dir/memora_client_test.c.o -c /workspaces/MemoraDB/tests/memora_client_test.c",
+  "file": "/workspaces/MemoraDB/tests/memora_client_test.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../lib -I../server -g -O0 -o tests/CMakeFiles/memora_lib_tests.dir/memora_lib_test.c.o -c /workspaces/MemoraDB/tests/memora_lib_test.c",
+  "file": "/workspaces/MemoraDB/tests/memora_lib_test.c"
+},
+{
+  "directory": "/workspaces/MemoraDB/build",
+  "command": "/usr/bin/gcc -I../lib -I../server -g -O0 -pthread -o tests/CMakeFiles/memora_server_tests.dir/memora_server_test.c.o -c /workspaces/MemoraDB/tests/memora_server_test.c",
+  "file": "/workspaces/MemoraDB/tests/memora_server_test.c"
+}
+]

@@ -1,0 +1,60 @@
+Start testing: Apr 30 18:47 UTC
+----------------------------------------------------------
+1/3 Testing: memora_server_tests
+1/3 Test: memora_server_tests
+Command: "/workspaces/MemoraDB/build/tests/memora_server_tests"
+Directory: /workspaces/MemoraDB/build/tests
+"memora_server_tests" start time: Apr 30 18:47 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): MemoraDB Tests
+25%: Checks: 4, Failures: 0, Errors: 3
+../tests/memora_server_test.c:7:E:Create Record:test_create_record:0: (after this point) Received signal 11 (Segmentation fault)
+../tests/memora_server_test.c:16:E:Read Record:test_read_record:0: (after this point) Received signal 11 (Segmentation fault)
+../tests/memora_server_test.c:25:E:Update Record:test_update_record:0: (after this point) Received signal 11 (Segmentation fault)
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"memora_server_tests" end time: Apr 30 18:47 UTC
+"memora_server_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: memora_lib_tests
+2/3 Test: memora_lib_tests
+Command: "/workspaces/MemoraDB/build/tests/memora_lib_tests"
+Directory: /workspaces/MemoraDB/build/tests
+"memora_lib_tests" start time: Apr 30 18:47 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): Memora
+Failed to connect to the server: Connection refused
+Failed to send request: Socket operation on non-socket
+0%: Checks: 1, Failures: 1, Errors: 0
+../tests/memora_lib_test.c:17:F:Core:test_create_read_delete:0: Assertion 'rc == 0' failed: rc == -1, 0 == 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"memora_lib_tests" end time: Apr 30 18:47 UTC
+"memora_lib_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: memora_client_tests
+3/3 Test: memora_client_tests
+Command: "/workspaces/MemoraDB/build/tests/memora_client_tests"
+Directory: /workspaces/MemoraDB/build/tests
+"memora_client_tests" start time: Apr 30 18:47 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): My Test Suite
+100%: Checks: 1, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"memora_client_tests" end time: Apr 30 18:47 UTC
+"memora_client_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 30 18:47 UTC

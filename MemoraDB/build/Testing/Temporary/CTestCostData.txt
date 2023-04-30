@@ -1,0 +1,6 @@
+memora_server_tests 4 0
+memora_lib_tests 0 0
+memora_client_tests 18 0.000244793
+---
+memora_server_tests
+memora_lib_tests
